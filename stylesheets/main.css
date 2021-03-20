@@ -1,0 +1,72 @@
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: azure;
+  margin-left: 1.25em;
+  font-family: "Baskerville";
+  font: "Baskerville";
+}
+
+.title-container {
+  background-color: 121212;
+  height: 75px;
+  width: 100%;
+  font-size: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-container {
+  margin: 3%;
+  position: relative;
+  text-align: left;
+}
+
+.login {
+  background-color: 7cb342;
+  color: white;
+  height: 100%;
+  width: 150px;
+  font-family: courier;
+  font: courier;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav {
+  background-color: 02386E;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 1px 0px;
+  font-family: courier;
+  font: courier;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+img {
+  align-self: center;
+  margin: auto;
+  width: 100%;
+
+}
+
+section {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
